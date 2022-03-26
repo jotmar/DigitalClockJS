@@ -1,0 +1,44 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+
+:root {
+    --font: 'Righteous', cursive;
+}
+
+body {
+    background-color: #272B33;
+    color: aliceblue;
+    font-family: var(--font);
+}
+
+h1 {
+    text-align: center;
+}
+
+section#clock {
+    width: 300px;
+    margin: auto;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: black;
+    background-color: aliceblue;
+    color: black;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.562);
+    text-align: center;
+}
+
+section#clock > h1 {
+    margin: 20px;
+    font-size: 50px;
+}
+
+div#state {
+    width: 150px;
+    margin: 10px auto;
+    border-radius: 5px;
+    background-color: rgba(236, 43, 43, 0.815);
+    color: black;
+    font-size: 1.5em;
+    text-align: center;
+}
